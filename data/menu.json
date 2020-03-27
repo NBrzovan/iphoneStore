@@ -1,0 +1,22 @@
+[
+    {
+        "href":"#desAbout",
+        "text":"About"
+    },
+    {
+        "href":"#products",
+        "text":"Products"
+    },
+    {
+        "href":"#contact",
+        "text":"Contact"
+    },
+    {
+        "href":"author.html",
+        "text":"Author"
+    },
+    {
+        "href":"chart.html",
+        "text":"Chart"
+    }
+]

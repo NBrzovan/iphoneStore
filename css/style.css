@@ -1,0 +1,221 @@
+*{
+	margin:0px auto;
+	padding:0px;
+	box-sizing:border-box;
+}
+.cleaner {
+	clear:both;
+}
+/*body{
+
+}*/
+html {
+    scroll-behavior:smooth;
+}
+header{
+	width:100%;
+    display:flex;
+    justify-content:space-around;
+    position:fixed;
+    top:0;
+	z-index:999;
+	padding-top:10px;
+}
+nav{
+    width:50%;
+    padding-left:10%;
+}
+nav ul{
+    display:flex;
+    justify-content:space-around;
+    list-style-type:none;
+}
+nav ul li{
+    display:list-item;
+    padding:20px 15px;
+}
+nav ul li a{
+    text-decoration:none; 
+	font-size:25px;
+	color:white;
+}
+#logo{
+    margin-left:7%;
+    padding-top:7px;
+}
+#cover{
+    width:100%;
+    height:850px;
+    background-image:url(../img/cover.jpg);
+    background-size:cover;
+    position:relative;
+}
+#content{
+    width:100%;
+}
+#content .description{
+	text-align:center;
+	width:200px;
+    padding-top:70px;
+}
+#content #desAbout{
+    padding-top:70px;
+    width:90%;
+    display:flex;
+    justify-content:space-around;
+}
+#content #desAbout #picAbout{
+    width:40%;
+}
+#content #desAbout #textAbout{
+width:40%;
+min-height:50px;
+text-align:center;
+padding-top:7%;
+}
+#content #products{
+    width:100%;
+    padding-top: 70px;
+    margin-top:15px;
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    
+}
+#content #products .iphone{
+    width:21%;
+    margin-bottom:15px;
+    background-color:white;
+}
+ .iphone .iImg{
+    text-align:center;
+}
+ .iphone .iText p{
+    margin-left:15%;
+    padding:3px;
+    font-size:18px;
+}
+.iBtn{
+   text-align:right;
+   padding-right:10%;
+}
+#location iframe{
+    margin-top:50px;
+    width: 100%;
+    height:300px;
+ }
+ footer{
+    width:100%;
+    height:55px;
+    text-align:center;
+    background-color: rgba(51,51,51,.65);
+}
+footer p{
+    font-size:25px;
+    padding-top:15px;
+    color: white;
+}
+#contact{
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+#form{
+    width:50%;
+}
+form{
+    width:100%;
+}
+form input, textarea{
+    width:90%;
+    padding:2%;
+    margin:2%;
+    border:none;
+    border-bottom:1px dashed black;
+}
+form #btnReg{
+    width:20%;
+    background-color:rgba(51,51,51,.65);
+    border:none;    
+    font-size:20px;
+    color: white;
+}
+#info{
+    padding-top:50px;
+    width:50%;
+    text-align:center;
+}
+.infFafa{
+    margin-left:10px;
+}
+#info p{
+    font-size:20px;
+}
+#info .fa{
+    font-size: 25px;
+    color: black;
+}
+#auth{
+    width:100%;
+    text-align: center;
+}
+form span{
+    color: red;
+}
+.iphone span{
+    font-weight: bold;
+}
+.iphone #btn{
+    padding:3%;
+    margin:2%;
+}
+.iBtn .fa{
+ font-size:20px;
+ padding:2px;
+ text-align:right;
+}
+#sortAndFilter{
+    width:100%;
+    min-height:150px;
+    display: flex;
+    justify-content: space-around;
+    padding-top:30px;
+}
+#ddlSort{
+    width:250px;
+    height:30px;
+    border: 1px solid black;
+}
+#sortiranje{
+    width:50%;
+    padding-top: 50px;
+}
+#korpica{
+    width:100%;
+}
+#izabran{
+    width: 100%;
+    text-align: center;
+    word-spacing: 20px;
+    font-size: 20px;
+}
+#filter input{
+   width:25px;
+}
+#textKorpica{
+    text-align: center;
+}
+#textKorpica h2{
+    font-size: 20px;
+    padding:2%;
+}
+#greske{
+    width:100%;
+    color: red;
+}
+footer a{
+    text-decoration:none;
+    color:white;
+}

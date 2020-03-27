@@ -1,0 +1,164 @@
+[
+    {   
+        "id":1,
+        "img":{
+            "src":"../img/iphone6/iphone6gold.jpg",
+            "alt":"Iphone 6"
+            },
+        "model":"iPhone 6",
+        "color":"Gold",
+        "price":"200"
+    },
+    {   
+        "id":2,
+        "img":{
+            "src":"../img/iphone6/iphone6-pink.jpg",
+            "alt":"Iphone 6"
+            },
+        "model":"iPhone 6",
+        "color":"Pink",
+        "price":"205"
+    },
+    {   
+        "id":3,
+        "img":{
+            "src":"../img/iphone6/iphone6-silver.jpg",
+            "alt":"Iphone 6"
+            },
+        "model":"iPhone 6",
+        "color":"Silver",
+        "price":"203"
+    },
+    {   
+        "id":4,
+        "img":{
+            "src":"../img/iphone6/iphone6-white.jpg",
+            "alt":"Iphone 6"
+            },
+        "model":"iPhone 6",
+        "color":"White",
+        "price":"190"
+    },
+    {
+        "id":5,
+        "img":{
+            "src":"../img/iphone7/iphone7-gold.jpg",
+            "alt":"Iphone 7"
+            },
+        "model":"iPhone 7",
+        "color":"Gold",
+        "price":"490"
+    },
+    {
+        "id":6,
+        "img":{
+            "src":"../img/iphone7/iphone7-black.jpg",
+            "alt":"Iphone 7"
+            },
+        "model":"iPhone 7",
+        "color":"Black",
+        "price":"485"
+    },
+    {   
+        "id":7,
+        "img":{
+            "src":"../img/iphone7/iphone7-silver.jpeg",
+            "alt":"Iphone 7"
+            },
+        "model":"iPhone 7",
+        "color":"Silver",
+        "price":"483"
+    },
+    {
+        "id":8,
+        "img":{
+            "src":"../img/iphone7/iphone7-red.jpg",
+            "alt":"Iphone 7"
+            },
+        "model":"iPhone 7",
+        "color":"Red",
+        "price":"500"
+    },
+    
+    {   
+        "if":9,
+        "img":{
+            "src":"../img/iphone8/iphone8-gold.jpg",
+            "alt":"Iphone 8"
+            },
+        "model":"iPhone 8",
+        "color":"Gold",
+        "price":"500"
+    },
+    {   
+        "id":10,
+        "img":{
+            "src":"../img/iphone8/iphone8-pink.jpg",
+            "alt":"Iphone 8"
+            },
+        "model":"iPhone 8",
+        "color":"Pink",
+        "price":"535"
+    },
+    {   
+        "id":11,
+        "img":{
+            "src":"../img/iphone8/iphone8-black.jpg",
+            "alt":"Iphone 8"
+            },
+        "model":"iPhone 8",
+        "color":"Black",
+        "price":"533"
+    },
+    {
+        "id":12,
+        "img":{
+            "src":"../img/iphone8/iphone8-white.jpg",
+            "alt":"Iphone 8"
+            },
+        "model":"iPhone 8",
+        "color":"white",
+        "price":"500"
+    },
+
+    {   
+        "id":13,
+        "img":{
+            "src":"../img/iphoneX/iphoneX-gold.jpg",
+            "alt":"Iphone X"
+            },
+        "model":"iPhone X",
+        "color":"Gold",
+        "price":"800"
+    },
+    {   
+        "id":14,
+        "img":{
+            "src":"../img/iphoneX/iphoneX-pink.jpg",
+            "alt":"Iphone X"
+            },
+        "model":"iPhone X",
+        "color":"Pink",
+        "price":"805"
+    },
+    {
+        "id":15,
+        "img":{
+            "src":"../img/iphoneX/iphoneX-black.jpg",
+            "alt":"Iphone X"
+            },
+        "model":"iPhone X",
+        "color":"Black",
+        "price":"823"
+    },
+    {
+        "id":16,
+        "img":{
+            "src":"../img/iphoneX/iphoneX-white.jpg",
+            "alt":"Iphone X"
+            },
+        "model":"iPhone X",
+        "cloro":"White",
+        "price":"880"
+    }
+]
