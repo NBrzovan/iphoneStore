@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<urlset xmlns="http://www.sitmaps.org/schemas/sitemap/0.9">
+		<url>
+			<loc>https://nbrzovan.github.io/iphoneStore/index.html</loc> 
+			<lastmod>2020-03-23</lastmod>
+			<changefreq>weekly</changefreq>
+			<priority>1</priority>
+		</url>
+        <url>
+			<loc>https://nbrzovan.github.io/iphoneStore/chart.html</loc> 
+			<lastmod>2020-03-23</lastmod>
+			<changefreq>weekly</changefreq>
+			<priority>0.8</priority>
+		</url>
+		</urlset>
+		

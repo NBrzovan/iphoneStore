@@ -32,7 +32,7 @@ window.onload=function(){
         }
     });
     ispisLogo();
-    footer();
+    
 }
 window.onscroll=function(){
     this.scrollHeader();
@@ -63,7 +63,7 @@ function description(){
 function about(){
     var slika=document.getElementById("picAbout");
     var text=document.getElementById("textAbout");
-    slika.innerHTML=`<img src="img/store.jpg"/ alt="store"/>`;
+    slika.innerHTML=`<img src="img/store1.jpg"/ alt="store"/>`;
     text.innerHTML="<h2>We are committed to providing exceptional service to our customers. For purchases with fast and free delivery, shop here on apple.com or the Apple Store app.</h2>";
 }
 
@@ -85,9 +85,9 @@ function ispisProizvoda(prod){
     $(".btn").click(dodajUKorpu);
 }
 
-function footer(){
-    document.querySelector("footer").innerHTML=`<p>Copyright © 2020 Nikola Brzovan | <a href="dokumentacija.pdf"> Documentation </a></p> `;
-}
+(function footer(){ 
+    document.querySelector("footer").innerHTML=`<p>Copyright © 2020 Nikola Brzovan  | <a href="dokumentacijaiPhoneStore.pdf" target="blank"> Documentation </a></p> `;
+})();
 
 function ispisForm(){
     var ispis="";
@@ -107,13 +107,14 @@ function ispisInfo(){
     <div class="infFafa"><a href="mailto:nikola.brzovan123@gmail.com"><i class="fa fa-envelope-open-o"></a></i></div><p>iphonestore@gmail.com</p><br/>
     <div class="infFafa"><a href="tel:+3816312312312"><i class="fa fa-phone"></i></a></div><p>+38163/123-123-12</p><br/>
     <div class="infFafa"><i class="fa fa-map-marker"></i></a></div><p>Knez Mihailova 50</p>
+    <div class="infFafa"><a href="sitemap.xml" target="blank"><i class="fa fa-sitemap"></i></a></div>
     `;
     document.getElementById("info").innerHTML=ispis;
 }
 function author(){
     var ispis=`
-    <img src="img/author.png" alt="author"/><br/>
-    <h1>Nikola Brzovan 92/18</h1>
+    <img src="img/author.png" id="autPic" alt="author"/><br/>
+    <h1 id="txtPic">Nikola Brzovan 92/18</h1>
     `;
     document.getElementById("auth").innerHTML=ispis;
 }
@@ -187,7 +188,7 @@ function ispisCbox(prod){
     
     function filtriranje(){
         var vrednost = $(this).val();
-        if(!nizFilter.includes(vrednost)){ //proverava da li postoji vrednsot u nizu, ako ne postoji, pusuje ga
+        if(!nizFilter.includes(vrednost)){ 
             nizFilter.push(vrednost);
         }else{
             nizFilter=nizFilter.filter(f=>{
@@ -208,13 +209,13 @@ function ispisCbox(prod){
                             }
                        }
                     }
-                    else{
+                    else
+                    {
                         return true;
                     }
                 });
                 console.log(products);
-                ispisProizvoda(products);
-                
+                ispisProizvoda(products);   
             }
         });
     }
@@ -238,7 +239,7 @@ function ispisKorpica(){
                 if(kupljeniProizvodi.length){
                     ispis+=`<div id="izabran">`
                     kupljeniProizvodi.forEach(p=>{
-                        ispis+=`<p>${p.model} ${p.price} ${p.kol} ${p.price*p.kol}</p><button data-id="${p.id}">remove</button>`;
+                        ispis+=`<p>${p.model} ${p.price} ${p.kol} ${p.price*p.kol}</p><button data-id="${p.id}">Remove <i class="fa fa-remove"></i></button>`;
                     });
                     ispis+="</div>";
                     $("#korpica").html(ispis);
@@ -283,7 +284,7 @@ function dodajUKorpu(){
         }
         localStorage.setItem("IzabranProizvod", JSON.stringify(products));
     }
-    alert("Add to card");
+    alert("Add to Chart");
 }
 
 var header = document.getElementsByTagName("header")[0];
@@ -300,3 +301,10 @@ function tKopica(){
     var txt="<h2>MODEL | PRICE | QUANTITY | PRICE*QUANTITY</h2>"
     $("#textKorpica").html(txt);
 }
+
+$(document).ready(function(){
+    $("#autPic").click(function(){
+      $("#txtPic").slideToggle("slow");
+    });
+  });
+

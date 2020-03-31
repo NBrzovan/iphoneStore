@@ -1,0 +1,70 @@
+@media screen and (max-width: 1200px){
+    header nav{
+       width:70%;
+    }
+    #content #desAbout{
+        display:block;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 980px){
+    nav ul li{
+       padding:20px 5px;
+    }
+   #logo{
+       margin: 0px auto;
+    }
+}
+@media screen and (max-width: 740px){
+   nav{
+       width:70%;
+       margin-top:2%;
+   }
+   nav ul{
+       margin:0px auto;
+   }
+   nav ul li a{
+       font-size:17px;
+   }
+   #logo{
+       margin-top:2%;
+   }
+   #content #products .iphone{
+       width:50%;
+   }
+   #contact{
+       display:block;
+   }
+   #form{
+    width:80%;
+}
+#info{
+    width: 80%;
+}
+#sortAndFilter{
+    display: block;
+    text-align:center;
+}
+#filter{
+    padding-top: 100px;
+}
+#content #desAbout #picAbout{
+    width:70%;
+}
+}
+@media screen and (max-width: 500px){
+    #content #products{
+        text-align: center;
+    }
+    #content #products .iphone{
+        width:100%;
+    }
+    header{
+        display:block;
+        text-align: center;
+    }
+    #cover{
+        height:400px;
+    }
+    
+}
